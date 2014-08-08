@@ -1,0 +1,35 @@
+﻿Build started 8/7/2014 6:02:02 PM.
+     1>Project "C:\Users\Rio\Documents\649\CSCE649\BouncingBallOOP\BouncingBallOOP.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\BouncingBallOOP.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\Rio\Documents\OpenGL\include /IC:\Users\Rio\Documents\649\CSCE649 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BounceAndDetectOOP.cpp
+         BounceAndDetectOOP.cpp
+     1>c:\users\rio\documents\649\csce649\bouncingballoop\bounceanddetectoop.cpp(31): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\rio\documents\649\csce649\bouncingballoop\bounceanddetectoop.cpp(33): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\rio\documents\649\csce649\bouncingballoop\bounceanddetectoop.cpp(34): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\rio\documents\649\csce649\bouncingballoop\bounceanddetectoop.cpp(339): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rio\documents\649\csce649\bouncingballoop\bounceanddetectoop.cpp(339): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rio\documents\649\csce649\bouncingballoop\bounceanddetectoop.cpp(339): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\rio\documents\649\csce649\bouncingballoop\bounceanddetectoop.cpp(360): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\rio\documents\649\csce649\bouncingballoop\bounceanddetectoop.cpp(361): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\rio\documents\649\csce649\bouncingballoop\bounceanddetectoop.cpp(362): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rio\Documents\649\CSCE649\Debug\BouncingBallOOP.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Rio\Documents\OpenGL\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BouncingBallOOP.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Rio\Documents\649\CSCE649\Debug\BouncingBallOOP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rio\Documents\649\CSCE649\Debug\BouncingBallOOP.lib" /MACHINE:X86 Debug\BouncingBallOOP.exe.embed.manifest.res
+         Debug\BounceAndDetectOOP.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\BouncingBallOOP.exe.embed.manifest" /manifest Debug\BouncingBallOOP.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         BouncingBallOOP.vcxproj -> C:\Users\Rio\Documents\649\CSCE649\Debug\BouncingBallOOP.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\BouncingBallOOP.unsuccessfulbuild".
+         Touching "Debug\BouncingBallOOP.lastbuildstate".
+     1>Done Building Project "C:\Users\Rio\Documents\649\CSCE649\BouncingBallOOP\BouncingBallOOP.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.78
